@@ -1,0 +1,57 @@
+@media only screen and (max-width:768px) {
+    .nav_bar {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        height: 60%;
+        position: absolute;
+        left: -600px;
+        background-color: #C7DAD8;
+        transition: all 0.9s ease-in-out;
+        border-radius: 0 5px 5px 0;
+        top: 0;
+    }
+    .nav_bar li {
+        padding: 5px 5px;
+    }
+    nav .fa-xmark{
+        display: block;
+
+    }
+    .header_bar .fa-bars{
+        display: block;
+    }
+    .bag {
+        padding: 0 10px;
+    }
+    .res_banner1_heading {
+        padding-top: 42px;
+    }
+    .footer_menu {
+        padding-right: 15px;
+    }
+    .footer_menu3 {
+        padding-left: 10px;
+    }
+    .footer_menu1_heading {
+        padding-left: 10px;
+    }
+    .footer_menu1 a{
+        font-size: 11px;
+    }
+
+    /* Men Page Responsive */
+
+    .page_header {
+        height: 130px;
+    }
+    .men_cascual_image img{
+        width: 100px;
+    }
+    .shop_now {
+        width: 75px;
+        height: 30px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+}
